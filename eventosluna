@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Events Planner</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff7f3;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f8c8dc;
+            text-align: center;
+            padding: 30px;
+        }
+        header h1 {
+            margin: 0;
+            color: #a83465;
+        }
+        nav {
+            background-color: #fff0f5;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #a83465;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px 40px;
+        }
+        h2 {
+            color: #c44569;
+        }
+        ul {
+            list-style-type: square;
+        }
+        .testimonio {
+            background-color: #fce4ec;
+            margin: 10px 0;
+            padding: 10px;
+            border-left: 5px solid #d81b60;
+        }
+        footer {
+            background-color: #f8c8dc;
+            text-align: center;
+            padding: 20px;
+            color: #444;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+        .img-galeria {
+            width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Events Planner</h1>
+        <p>Hacemos cualquier evento un sueño hecho realidad</p>
+    </header>
+
+    <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#costos">Costos</a>
+        <a href="#galeria">Galería</a>
+        <a href="#opiniones">Opiniones</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>¿Qué es un Wedding Planner?</h2>
+        <p>Un planificador de bodas es un profesional especializado en la organización, coordinación y gestión de todos los aspectos relacionados con la celebración de una boda. Este experto se encarga de convertir las ideas y sueños de los novios en una realidad tangible, asegurando que cada detalle sea perfecto.</p>
+    </section>
+
+    <section>
+        <h2>Beneficios de contratarnos</h2>
+        <ul>
+            <li>Reducción del Estrés</li>
+            <li>Ahorro de Tiempo</li>
+            <li>Acceso a Proveedores de Calidad</li>
+            <li>Experiencia y Conocimiento</li>
+        </ul>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios que ofrecemos</h2>
+        <ul>
+            <li>Consultoría y Asesoramiento</li>
+            <li>Selección del lugar</li>
+            <li>Gestión del presupuesto</li>
+            <li>Coordinación el día del evento</li>
+            <li>Búsqueda de proveedores</li>
+            <li>Decoración y diseño</li>
+            <li>Gestión de invitados</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Proveedores</h2>
+        <ul>
+            <li>Chef</li>
+            <li>DJ</li>
+            <li>Banda</li>
+            <li>Floristería</li>
+            <li>Hostess</li>
+            <li>Cosmetóloga</li>
+            <li>Capitán y meseros</li>
+            <li>Mobiliario</li>
+            <li>Jardines</li>
+            <li>Letras gigantes</li>
+            <li>Garroteros</li>
+        </ul>
+    </section>
+
+    <section id="costos">
+        <h2>Servicios y Costos</h2>
+        <ul>
+            <li><strong>Paquete Básico:</strong> Coordinación del día - $10,000 - $20,000 MXN</li>
+            <li><strong>Paquete Intermedio:</strong> Coordinación parcial - $20,000 - $40,000 MXN</li>
+            <li><strong>Paquete Completo:</strong> Todo el evento - $40,000 - $80,000+ MXN</li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Eventos</h2>
+        <img src="img/evento1.jpg" alt="Evento 1" class="img-galeria">
+        <img src="img/evento2.jpg" alt="Evento 2" class="img-galeria">
+        <img src="img/evento3.jpg" alt="Evento 3" class="img-galeria">
+    </section>
+
+    <section id="opiniones">
+        <h2>Opiniones de Clientes</h2>
+        <div class="testimonio">
+            <p><strong>Ana y Luis:</strong> "Nuestro día fue mágico, gracias al equipo de Events Planner. Cuidaron cada detalle."</p>
+        </div>
+        <div class="testimonio">
+            <p><strong>María y Jorge:</strong> "Contratar este servicio fue la mejor decisión. Profesionalismo total."</p>
+        </div>
+        </body>
+        </html>
